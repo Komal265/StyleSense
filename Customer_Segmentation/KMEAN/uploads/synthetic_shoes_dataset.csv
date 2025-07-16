@@ -1,0 +1,1001 @@
+brand,color,gender,category,season,rating,price
+New Balance,Brown,Female,Sneakers,Winter,7.0,11137.45
+Under Armour,Pink,Unisex,Sneakers,Spring,9.9,16415.71
+New Balance,Gray,Female,Formal Shoes,Spring,6.8,8510.21
+Fila,Black,Female,Running Shoes,Spring,7.3,2813.84
+Skechers,Red,Unisex,Boots,Winter,4.3,3581.71
+Fila,Gray,Male,Sneakers,All-Season,1.1,16095.64
+Nike,Gray,Male,Running Shoes,Summer,8.9,3523.31
+Puma,Pink,Unisex,Sneakers,All-Season,3.8,1459.37
+Reebok,Gray,Unisex,Sneakers,Winter,4.8,1207.57
+Puma,Blue,Male,Boots,Spring,9.9,18140.62
+New Balance,Brown,Unisex,Loafers,Summer,3.5,5008.72
+Nike,Red,Male,Loafers,Winter,6.4,6466.01
+Nike,Orange,Unisex,Casual Shoes,Summer,6.8,732.46
+Fila,Orange,Male,Casual Shoes,Winter,1.8,7307.6
+Reebok,Pink,Male,Running Shoes,Spring,6.4,7554.19
+Reebok,Brown,Female,Loafers,Summer,7.6,13700.76
+Adidas,Black,Male,Formal Shoes,Winter,3.7,5853.18
+Nike,Yellow,Unisex,Loafers,Spring,8.9,17758.4
+Converse,Orange,Male,Running Shoes,Winter,8.9,11990.0
+Adidas,Blue,Female,Casual Shoes,All-Season,2.4,10410.16
+Reebok,Brown,Male,Sneakers,Summer,1.4,3382.04
+Fila,Orange,Unisex,Formal Shoes,All-Season,8.4,6927.97
+Adidas,Orange,Male,Sneakers,Spring,2.2,12135.14
+Under Armour,Yellow,Male,Sneakers,Spring,4.5,19253.78
+New Balance,Blue,Unisex,Sandals,All-Season,3.7,1754.14
+Skechers,Brown,Female,Loafers,Spring,3.1,5257.67
+Reebok,Pink,Unisex,Boots,Spring,10.0,12022.13
+Skechers,Gray,Female,Sneakers,All-Season,6.0,13592.58
+Nike,Red,Unisex,Sneakers,Winter,1.4,14359.11
+Reebok,Blue,Male,Running Shoes,Summer,9.4,11921.5
+Reebok,Orange,Unisex,Casual Shoes,Spring,2.9,10364.87
+Reebok,Red,Female,Boots,Winter,7.4,19759.95
+Under Armour,White,Unisex,Formal Shoes,Spring,7.0,1344.47
+Converse,Green,Female,Casual Shoes,Winter,8.6,6508.82
+Nike,Black,Female,Running Shoes,All-Season,7.3,15898.02
+Nike,Pink,Unisex,Sandals,Summer,9.9,16829.34
+ASICS,Pink,Unisex,Casual Shoes,All-Season,7.5,5066.38
+Reebok,Gray,Unisex,Sneakers,Winter,9.6,9390.15
+Reebok,Pink,Male,Boots,All-Season,4.8,9069.24
+Reebok,Blue,Unisex,Sneakers,All-Season,3.6,8161.9
+Puma,Green,Unisex,Casual Shoes,All-Season,6.3,852.91
+Nike,Orange,Male,Boots,Summer,7.3,19131.69
+Reebok,Green,Female,Sandals,All-Season,1.4,806.97
+Reebok,Gray,Female,Running Shoes,Summer,2.4,7184.61
+Nike,Brown,Male,Loafers,Spring,2.2,1916.41
+Under Armour,Black,Female,Sneakers,Winter,6.1,15918.64
+Reebok,Green,Female,Formal Shoes,Summer,5.8,5103.84
+Reebok,Black,Male,Loafers,Spring,9.7,686.42
+Converse,Yellow,Female,Loafers,All-Season,4.0,10909.51
+Skechers,Brown,Unisex,Casual Shoes,All-Season,8.7,14355.94
+Under Armour,Red,Unisex,Loafers,All-Season,2.4,13538.93
+Nike,White,Unisex,Sneakers,Summer,4.6,5429.87
+Reebok,Yellow,Male,Running Shoes,Winter,7.2,5334.47
+Reebok,Yellow,Female,Formal Shoes,All-Season,5.0,6588.17
+Nike,Pink,Female,Boots,Winter,8.0,15421.46
+Puma,Yellow,Unisex,Sneakers,Summer,4.5,17955.37
+Fila,Red,Unisex,Running Shoes,Spring,5.7,4796.15
+Nike,Yellow,Unisex,Casual Shoes,Winter,7.3,14494.95
+Reebok,White,Male,Boots,All-Season,8.4,8507.04
+Reebok,Blue,Male,Sandals,Summer,9.0,19192.42
+Reebok,Black,Unisex,Sneakers,Winter,9.2,8428.45
+Reebok,Black,Unisex,Formal Shoes,Winter,5.5,19456.65
+Reebok,Orange,Male,Sandals,All-Season,5.4,15612.46
+Skechers,Gray,Male,Sneakers,All-Season,8.2,18512.21
+Nike,Green,Female,Formal Shoes,Summer,6.5,11637.35
+Skechers,Blue,Male,Sandals,Spring,7.7,14258.62
+Fila,Pink,Male,Boots,Spring,6.0,9444.71
+Reebok,Pink,Unisex,Loafers,Summer,6.1,7623.37
+New Balance,Blue,Female,Loafers,All-Season,4.3,4148.79
+New Balance,Yellow,Male,Sneakers,Spring,4.4,14528.98
+Adidas,Pink,Unisex,Running Shoes,Winter,9.4,11029.15
+Reebok,Orange,Female,Sneakers,All-Season,6.5,2592.04
+Under Armour,Green,Female,Running Shoes,Winter,4.6,2070.38
+Puma,White,Male,Sandals,Winter,6.2,18690.62
+Puma,Gray,Female,Casual Shoes,All-Season,4.2,18617.13
+New Balance,Blue,Female,Loafers,Summer,1.4,1078.64
+Reebok,Orange,Male,Running Shoes,Spring,4.0,14561.49
+Reebok,Pink,Male,Running Shoes,All-Season,8.5,3176.41
+Reebok,Green,Male,Sneakers,Winter,2.1,15102.89
+Fila,White,Male,Formal Shoes,Winter,5.6,2247.4
+Puma,Gray,Unisex,Sandals,All-Season,7.6,7316.12
+Fila,Green,Female,Loafers,All-Season,3.7,15013.32
+Nike,Green,Unisex,Casual Shoes,Winter,7.9,1473.26
+Skechers,Gray,Female,Formal Shoes,Summer,1.6,13556.82
+Reebok,Yellow,Unisex,Sandals,Spring,4.9,7800.32
+Reebok,Red,Unisex,Boots,Summer,2.8,5047.85
+Fila,Yellow,Male,Running Shoes,Winter,3.4,3277.59
+Nike,Red,Female,Boots,All-Season,6.8,13055.11
+Nike,Yellow,Female,Formal Shoes,All-Season,6.8,5850.86
+Under Armour,Pink,Male,Boots,All-Season,4.3,2625.39
+Puma,Red,Unisex,Sandals,Spring,2.9,3641.09
+Nike,Black,Unisex,Boots,All-Season,3.8,8892.95
+Reebok,Brown,Female,Sneakers,Summer,5.6,4234.09
+Converse,Orange,Female,Loafers,Summer,8.8,6670.63
+Skechers,Yellow,Unisex,Sneakers,All-Season,8.1,13989.94
+New Balance,Gray,Female,Sneakers,All-Season,4.4,16833.08
+Reebok,Red,Unisex,Loafers,All-Season,3.2,1565.86
+Nike,White,Male,Running Shoes,Winter,8.2,7484.18
+Fila,Blue,Unisex,Loafers,Spring,8.5,2384.44
+Reebok,Orange,Female,Sneakers,Summer,8.6,5735.53
+Reebok,Brown,Female,Casual Shoes,Spring,9.2,12393.78
+Nike,Yellow,Male,Sandals,Summer,8.3,2700.95
+Nike,Gray,Female,Formal Shoes,All-Season,6.8,18819.7
+Adidas,Blue,Unisex,Loafers,All-Season,8.9,4819.16
+Reebok,Blue,Male,Formal Shoes,Winter,1.5,8312.64
+Nike,Yellow,Female,Sneakers,Spring,8.9,15886.81
+Nike,Green,Unisex,Running Shoes,Summer,5.7,5098.48
+New Balance,Blue,Unisex,Formal Shoes,Spring,5.8,7222.21
+Reebok,Green,Unisex,Boots,Winter,5.3,2386.17
+Nike,Red,Female,Running Shoes,Winter,5.9,10794.89
+Converse,Yellow,Female,Formal Shoes,Spring,6.3,11590.84
+New Balance,White,Unisex,Running Shoes,Winter,9.6,17049.08
+Nike,Black,Unisex,Loafers,Summer,8.7,17279.58
+Fila,Red,Unisex,Sandals,Spring,1.0,7298.22
+Fila,Black,Unisex,Sneakers,Summer,1.9,4695.39
+Nike,Pink,Male,Casual Shoes,Summer,2.1,8485.75
+Fila,Red,Female,Loafers,Spring,9.1,637.75
+Reebok,Orange,Male,Loafers,Summer,6.9,17564.51
+Reebok,Gray,Unisex,Loafers,Spring,6.5,14009.95
+Nike,Gray,Male,Formal Shoes,Winter,7.6,19914.45
+Reebok,White,Female,Loafers,All-Season,4.5,5917.35
+Nike,Orange,Unisex,Boots,Spring,3.4,13292.84
+New Balance,Green,Unisex,Formal Shoes,Winter,9.8,5055.5
+Adidas,Yellow,Female,Casual Shoes,Spring,3.3,15753.11
+Nike,Gray,Female,Sneakers,Winter,7.7,11044.3
+Nike,White,Unisex,Sandals,Winter,7.4,2411.3
+Puma,White,Female,Boots,Winter,6.5,5162.23
+Reebok,Black,Unisex,Boots,Winter,4.1,7270.4
+Under Armour,Green,Male,Sneakers,All-Season,8.2,9645.21
+Reebok,Black,Female,Running Shoes,Summer,6.6,15218.68
+Fila,Black,Female,Sneakers,Winter,5.0,10775.22
+Skechers,White,Male,Boots,All-Season,9.2,9980.3
+Fila,Green,Unisex,Casual Shoes,All-Season,1.9,12505.55
+Under Armour,Yellow,Female,Running Shoes,Spring,5.9,13366.85
+Puma,Blue,Female,Formal Shoes,Winter,1.8,16006.04
+Fila,Gray,Female,Running Shoes,All-Season,9.7,6709.98
+Reebok,Green,Female,Sneakers,All-Season,5.1,14397.5
+Nike,Pink,Female,Casual Shoes,All-Season,3.0,4980.59
+Reebok,White,Male,Formal Shoes,Summer,3.2,7986.85
+Fila,Red,Unisex,Loafers,All-Season,2.2,13609.41
+Under Armour,Blue,Unisex,Casual Shoes,All-Season,5.5,625.76
+Fila,Gray,Female,Sandals,Spring,7.8,15698.74
+Nike,Orange,Male,Formal Shoes,Spring,2.3,7359.23
+Reebok,Blue,Male,Loafers,All-Season,6.2,8008.71
+Converse,White,Female,Casual Shoes,All-Season,3.3,17499.81
+Reebok,Black,Female,Sneakers,Winter,6.1,2012.88
+New Balance,Yellow,Unisex,Sneakers,Summer,10.0,8525.62
+Reebok,Red,Female,Formal Shoes,Spring,3.3,16719.34
+Fila,Orange,Unisex,Running Shoes,Spring,7.2,11844.84
+Reebok,Yellow,Female,Formal Shoes,All-Season,1.8,9849.22
+Reebok,Red,Male,Running Shoes,Winter,4.5,1617.89
+Reebok,Yellow,Female,Formal Shoes,Summer,2.3,3527.61
+Puma,Yellow,Female,Casual Shoes,All-Season,4.3,18012.47
+Nike,Black,Unisex,Casual Shoes,Summer,3.1,1289.41
+Reebok,White,Female,Running Shoes,Spring,8.6,14680.84
+Skechers,Blue,Female,Sandals,Winter,7.3,2611.3
+Reebok,Blue,Male,Sandals,All-Season,5.1,13615.79
+Reebok,Black,Female,Boots,All-Season,1.4,10798.12
+Skechers,White,Female,Sneakers,Summer,4.6,10373.05
+Reebok,Orange,Male,Casual Shoes,All-Season,8.9,11757.83
+Puma,Red,Female,Boots,Winter,8.5,9085.0
+Reebok,Brown,Unisex,Formal Shoes,All-Season,6.3,4814.05
+New Balance,Pink,Female,Formal Shoes,Summer,4.2,6388.96
+Reebok,Yellow,Female,Loafers,Spring,4.3,1740.5
+Puma,Brown,Male,Loafers,All-Season,8.4,19185.6
+Reebok,Yellow,Male,Casual Shoes,All-Season,3.6,9209.97
+Nike,Green,Unisex,Sandals,Summer,5.5,4003.31
+Nike,Gray,Male,Sneakers,All-Season,8.3,2247.12
+New Balance,Yellow,Unisex,Sandals,Winter,8.0,17855.71
+Reebok,Pink,Female,Sneakers,Spring,1.5,18053.68
+Reebok,White,Female,Running Shoes,Summer,2.3,14457.87
+Reebok,Pink,Female,Sneakers,Winter,6.3,14241.05
+Reebok,Brown,Unisex,Sneakers,Winter,8.9,12695.47
+Reebok,Pink,Male,Running Shoes,Spring,2.5,6395.65
+Fila,Red,Female,Casual Shoes,Summer,6.8,18471.63
+Nike,Yellow,Male,Formal Shoes,Spring,7.4,8516.38
+Reebok,Gray,Male,Boots,Winter,7.5,15880.76
+Reebok,Pink,Male,Casual Shoes,Spring,3.7,4456.85
+Reebok,White,Unisex,Sandals,Winter,4.8,10140.33
+Reebok,White,Unisex,Casual Shoes,Summer,5.0,5578.32
+Puma,Gray,Female,Formal Shoes,All-Season,4.5,13386.69
+Reebok,Orange,Unisex,Loafers,Winter,6.7,19593.42
+Skechers,Yellow,Unisex,Formal Shoes,Spring,3.5,13971.82
+Reebok,Pink,Unisex,Loafers,All-Season,3.3,16549.49
+Skechers,Black,Male,Casual Shoes,Summer,6.8,12772.16
+Under Armour,Blue,Female,Boots,Summer,9.1,3608.25
+Nike,Green,Male,Formal Shoes,Winter,9.6,11751.0
+Skechers,Blue,Female,Sneakers,Spring,3.9,6214.4
+Puma,Gray,Female,Sandals,Summer,1.2,14644.93
+Reebok,Orange,Male,Sandals,Winter,3.5,7038.0
+Reebok,Yellow,Unisex,Running Shoes,Winter,5.7,11606.75
+Nike,Red,Unisex,Sandals,All-Season,7.5,1792.23
+Under Armour,Pink,Unisex,Running Shoes,Winter,6.5,19374.97
+Nike,Red,Male,Running Shoes,Summer,2.1,6905.94
+Reebok,Yellow,Unisex,Running Shoes,Winter,2.4,7036.38
+Puma,Pink,Female,Running Shoes,Summer,4.8,883.65
+Reebok,Brown,Male,Sneakers,All-Season,2.2,17980.39
+Nike,Red,Male,Sandals,Winter,5.6,9887.3
+Nike,Red,Male,Sandals,Spring,8.8,8761.64
+Adidas,Green,Unisex,Sandals,Winter,3.7,12460.39
+Nike,Black,Unisex,Sandals,Summer,7.0,17916.43
+Nike,Yellow,Female,Sandals,All-Season,6.7,3801.12
+New Balance,Green,Unisex,Sandals,Summer,2.9,9600.71
+Fila,Blue,Unisex,Running Shoes,Winter,8.9,7398.93
+Nike,Blue,Unisex,Running Shoes,All-Season,6.0,8727.88
+Adidas,Orange,Male,Casual Shoes,Spring,9.5,4832.17
+Under Armour,Red,Male,Sneakers,Winter,2.6,18425.3
+Reebok,Brown,Unisex,Sandals,All-Season,7.4,9422.23
+Fila,Black,Unisex,Boots,Winter,9.7,10957.85
+Reebok,Yellow,Unisex,Running Shoes,All-Season,4.4,19915.53
+Fila,Brown,Female,Sandals,Summer,7.0,10219.4
+Nike,Yellow,Unisex,Boots,All-Season,7.3,5140.75
+Fila,Black,Unisex,Loafers,Spring,7.8,18026.66
+Under Armour,Yellow,Male,Running Shoes,Spring,1.6,2631.29
+Reebok,Pink,Unisex,Sandals,Winter,6.5,2069.38
+Puma,Yellow,Male,Sneakers,Spring,8.2,4360.5
+Reebok,Blue,Male,Casual Shoes,Spring,1.9,12384.01
+Fila,Yellow,Male,Sneakers,All-Season,6.0,8819.12
+Reebok,Black,Female,Casual Shoes,Winter,3.4,10451.15
+Nike,Orange,Female,Running Shoes,All-Season,8.6,14163.65
+Nike,Orange,Unisex,Formal Shoes,Winter,1.9,6251.8
+Nike,Yellow,Unisex,Loafers,All-Season,9.5,5008.49
+Nike,Blue,Female,Formal Shoes,Summer,6.6,19414.14
+Reebok,Black,Unisex,Formal Shoes,Winter,6.5,18474.23
+Fila,Blue,Unisex,Formal Shoes,All-Season,3.8,1800.63
+Reebok,Blue,Unisex,Casual Shoes,Winter,5.6,4217.57
+Reebok,Pink,Unisex,Running Shoes,Summer,5.2,5855.66
+Skechers,Red,Unisex,Loafers,Spring,7.5,13892.57
+Reebok,Gray,Male,Loafers,Spring,8.9,10459.39
+Nike,Red,Unisex,Sandals,All-Season,1.8,5300.21
+Skechers,Black,Female,Boots,Spring,2.3,5332.05
+Nike,White,Male,Formal Shoes,Spring,8.9,13807.5
+Reebok,Gray,Male,Sneakers,All-Season,5.3,11710.79
+Reebok,Green,Female,Running Shoes,Spring,7.8,2243.56
+Reebok,Black,Female,Loafers,All-Season,5.4,18858.21
+Puma,Gray,Female,Sneakers,Spring,3.9,6411.63
+Nike,Brown,Male,Casual Shoes,Spring,4.8,17892.22
+Fila,Green,Unisex,Boots,Summer,7.7,16721.26
+Reebok,Pink,Female,Loafers,All-Season,8.3,19568.84
+Reebok,Brown,Unisex,Sandals,Summer,6.0,8667.14
+Reebok,Gray,Unisex,Loafers,All-Season,3.3,8609.81
+Fila,Green,Male,Sandals,All-Season,2.0,11787.35
+Reebok,Red,Female,Casual Shoes,Summer,6.6,8727.53
+Nike,Yellow,Male,Boots,Winter,7.9,3785.13
+Reebok,White,Unisex,Running Shoes,Summer,8.4,11745.85
+Fila,Orange,Male,Sandals,All-Season,6.4,17901.18
+Fila,Blue,Unisex,Sandals,Summer,2.6,16759.4
+Reebok,Green,Female,Loafers,Spring,1.6,5220.58
+Reebok,Red,Unisex,Sneakers,Summer,7.6,5315.72
+Fila,Brown,Female,Casual Shoes,Spring,3.8,17414.98
+Fila,Green,Male,Loafers,Summer,6.7,14185.61
+Reebok,Red,Female,Sneakers,Summer,1.3,6852.39
+Fila,Orange,Male,Loafers,Winter,7.7,1529.39
+Reebok,Pink,Female,Formal Shoes,Summer,3.1,17832.26
+Fila,Black,Unisex,Sneakers,Winter,7.8,9584.59
+Reebok,Gray,Female,Loafers,All-Season,8.5,17730.9
+Nike,Pink,Unisex,Casual Shoes,Winter,5.4,7960.15
+Nike,Red,Female,Casual Shoes,Winter,5.4,12346.79
+Fila,Yellow,Unisex,Sneakers,Spring,4.9,19956.06
+Under Armour,Blue,Female,Sneakers,Summer,8.5,3054.35
+Reebok,Orange,Male,Formal Shoes,Summer,4.5,16872.87
+Reebok,Green,Male,Loafers,Winter,4.6,7240.89
+Reebok,Green,Female,Loafers,Summer,5.0,8998.11
+Reebok,Red,Unisex,Casual Shoes,Spring,7.0,11186.04
+Nike,Red,Unisex,Running Shoes,Spring,4.2,13948.07
+Reebok,Gray,Female,Sneakers,Winter,4.4,18234.51
+Nike,Yellow,Unisex,Boots,Spring,5.7,4281.43
+Nike,Brown,Unisex,Boots,All-Season,3.5,18408.96
+Fila,Brown,Male,Casual Shoes,Summer,1.4,1998.41
+Reebok,Orange,Unisex,Formal Shoes,Winter,3.0,8344.65
+Reebok,Red,Female,Casual Shoes,Spring,7.1,8582.5
+Reebok,Yellow,Unisex,Casual Shoes,Spring,5.3,4060.77
+New Balance,Black,Female,Boots,Winter,9.0,7717.99
+Adidas,Blue,Unisex,Sneakers,Winter,7.1,11877.17
+Reebok,White,Female,Sandals,All-Season,3.1,10602.33
+Reebok,Blue,Male,Loafers,Winter,7.2,717.22
+Nike,Black,Unisex,Sneakers,Winter,9.1,18925.89
+New Balance,Green,Unisex,Sneakers,Spring,7.5,18113.88
+Reebok,White,Male,Running Shoes,Summer,1.7,11493.0
+Reebok,Brown,Male,Loafers,Spring,3.4,10440.27
+Nike,White,Female,Boots,Spring,7.7,9881.06
+Fila,Brown,Female,Running Shoes,Summer,1.4,13226.57
+Reebok,Gray,Female,Sneakers,Winter,3.5,1075.87
+New Balance,White,Female,Sneakers,Winter,3.2,3763.76
+Fila,Red,Male,Running Shoes,Summer,8.0,11946.2
+Nike,Gray,Male,Sandals,Spring,9.5,2942.38
+Reebok,Red,Male,Sandals,Winter,9.4,19587.26
+Fila,Gray,Unisex,Boots,Spring,6.7,13095.45
+Reebok,Blue,Female,Sandals,All-Season,1.4,2059.25
+Fila,Gray,Female,Sneakers,Summer,6.2,12985.87
+Under Armour,Green,Female,Formal Shoes,All-Season,5.6,6583.91
+Fila,Red,Male,Sneakers,All-Season,5.9,1503.17
+Reebok,Blue,Male,Casual Shoes,All-Season,3.8,2911.62
+Reebok,White,Unisex,Loafers,Winter,2.1,14281.61
+Reebok,Blue,Male,Loafers,Summer,6.2,5147.79
+Reebok,Pink,Unisex,Sandals,Summer,8.0,7108.93
+Under Armour,Red,Unisex,Formal Shoes,Summer,7.6,13240.3
+Nike,Gray,Unisex,Casual Shoes,Spring,3.4,8278.88
+Fila,Orange,Male,Formal Shoes,Spring,8.7,8657.63
+Reebok,Brown,Unisex,Sandals,Winter,1.4,11091.05
+Nike,Orange,Unisex,Boots,Summer,5.1,8446.13
+Nike,Yellow,Male,Formal Shoes,Spring,2.5,6710.93
+Reebok,Brown,Unisex,Sneakers,Winter,4.6,8624.36
+Nike,Green,Unisex,Boots,Spring,1.4,10790.13
+Reebok,Green,Male,Loafers,Spring,8.3,12336.53
+Fila,Orange,Male,Sneakers,Summer,9.9,17908.34
+Reebok,Black,Male,Loafers,Winter,3.4,11008.49
+Reebok,Pink,Female,Running Shoes,All-Season,5.8,3242.82
+Adidas,Yellow,Male,Formal Shoes,Winter,1.0,19059.49
+Nike,White,Female,Casual Shoes,Spring,5.0,3292.97
+Nike,Gray,Female,Sneakers,Spring,1.2,17429.57
+Fila,White,Female,Sneakers,Winter,6.2,19819.31
+Nike,Gray,Male,Running Shoes,All-Season,4.3,7047.22
+Fila,Red,Male,Sandals,Winter,5.2,10048.73
+Reebok,Pink,Male,Running Shoes,Winter,9.0,6059.41
+Fila,Blue,Male,Sandals,All-Season,8.6,7399.67
+Fila,Brown,Female,Loafers,Winter,4.8,7710.94
+Reebok,Brown,Male,Boots,Summer,2.2,1934.46
+Reebok,Orange,Unisex,Sandals,All-Season,3.9,11827.15
+Reebok,Orange,Female,Formal Shoes,Spring,5.7,2353.24
+Under Armour,Green,Female,Running Shoes,Spring,7.1,4788.85
+Reebok,Blue,Unisex,Sneakers,All-Season,5.1,11330.74
+Nike,Orange,Male,Casual Shoes,Summer,6.0,17034.08
+Reebok,Red,Male,Loafers,Summer,5.2,3724.43
+Nike,Gray,Unisex,Running Shoes,All-Season,5.6,630.94
+Reebok,Pink,Unisex,Loafers,Summer,6.4,19637.1
+Reebok,Green,Female,Running Shoes,All-Season,5.8,16313.07
+Fila,Black,Unisex,Boots,All-Season,6.6,13199.36
+Puma,Pink,Male,Sandals,Summer,4.3,19841.55
+Fila,Pink,Female,Formal Shoes,Summer,4.4,12150.72
+Reebok,Blue,Male,Sneakers,Spring,1.2,9094.55
+Puma,Yellow,Male,Casual Shoes,All-Season,6.7,16549.18
+Fila,Red,Male,Formal Shoes,Winter,3.4,6097.27
+Reebok,Orange,Unisex,Boots,All-Season,6.1,862.62
+Nike,Green,Female,Loafers,Spring,6.6,6787.13
+New Balance,Red,Male,Casual Shoes,Winter,2.9,8434.28
+Skechers,Blue,Female,Loafers,Spring,2.3,18805.58
+Under Armour,Gray,Male,Sandals,All-Season,9.8,5239.29
+Nike,Black,Female,Sandals,Winter,6.2,12703.93
+Reebok,Green,Female,Running Shoes,All-Season,6.1,16838.6
+Puma,White,Female,Casual Shoes,All-Season,4.6,15451.83
+Under Armour,Yellow,Male,Casual Shoes,Summer,2.6,8646.92
+Reebok,Blue,Unisex,Loafers,Summer,3.9,18335.36
+Nike,Green,Male,Boots,All-Season,8.5,5650.38
+Nike,White,Male,Formal Shoes,Winter,5.8,12268.67
+Nike,Yellow,Male,Boots,All-Season,7.9,11884.56
+Reebok,Pink,Unisex,Running Shoes,Summer,7.0,6505.42
+Under Armour,Green,Female,Running Shoes,Spring,5.7,16862.12
+Reebok,White,Male,Sneakers,Summer,4.4,15098.53
+Skechers,Pink,Male,Sandals,Spring,7.0,11073.51
+Fila,Black,Male,Formal Shoes,All-Season,2.2,11514.37
+Nike,Brown,Male,Formal Shoes,All-Season,5.6,5260.0
+Converse,Green,Unisex,Sandals,Spring,4.1,3264.46
+Nike,Blue,Male,Loafers,Spring,4.4,2274.13
+Under Armour,Yellow,Male,Sandals,Winter,9.8,5450.56
+Adidas,Blue,Female,Sandals,Spring,9.6,4410.36
+Reebok,Brown,Male,Casual Shoes,All-Season,7.4,2432.3
+Puma,Pink,Female,Formal Shoes,Spring,5.0,6296.25
+Nike,Green,Female,Sneakers,All-Season,2.1,2013.14
+Reebok,Red,Female,Casual Shoes,All-Season,3.8,4485.86
+Under Armour,Blue,Female,Sneakers,All-Season,9.6,17936.06
+Reebok,Red,Female,Sandals,Spring,5.3,9364.37
+Under Armour,Blue,Female,Sandals,Winter,4.7,2651.92
+Nike,Orange,Unisex,Running Shoes,Winter,5.4,7754.76
+Puma,Red,Female,Loafers,All-Season,9.6,14657.22
+Puma,Black,Female,Loafers,All-Season,3.5,2459.04
+Puma,Gray,Male,Running Shoes,Spring,7.4,12119.07
+Nike,Brown,Unisex,Sandals,All-Season,2.4,5512.88
+Fila,Orange,Female,Running Shoes,Spring,7.2,6471.64
+Fila,Blue,Male,Running Shoes,All-Season,3.2,16130.72
+Adidas,Orange,Unisex,Formal Shoes,Winter,6.5,9669.3
+Nike,Blue,Unisex,Boots,Winter,5.6,13115.1
+Adidas,Pink,Female,Boots,Spring,2.3,4828.31
+Puma,Green,Male,Sneakers,Summer,6.3,10791.21
+Fila,Pink,Male,Sandals,Summer,9.6,15576.83
+Fila,White,Male,Sneakers,Spring,5.6,5794.72
+Adidas,White,Female,Sandals,Spring,5.1,1186.9
+Fila,Yellow,Unisex,Casual Shoes,Winter,5.5,14771.64
+Puma,Green,Female,Sneakers,Spring,1.9,4610.58
+Reebok,White,Female,Sandals,Winter,9.1,10713.1
+Reebok,Blue,Unisex,Boots,Winter,3.7,13523.88
+Under Armour,White,Female,Casual Shoes,All-Season,8.0,17765.6
+Reebok,Orange,Unisex,Boots,Winter,4.3,7933.55
+Reebok,Orange,Female,Casual Shoes,Summer,5.5,8503.79
+Fila,Blue,Male,Boots,Spring,3.7,2141.82
+Nike,Yellow,Female,Casual Shoes,All-Season,6.6,3626.1
+Reebok,Gray,Female,Formal Shoes,Winter,1.5,6468.32
+Converse,Brown,Unisex,Sandals,Winter,2.5,17042.63
+Nike,Blue,Unisex,Formal Shoes,Summer,2.4,11597.42
+Reebok,Orange,Male,Boots,Winter,6.5,19494.61
+Reebok,Blue,Female,Sneakers,All-Season,5.8,9920.71
+Reebok,Pink,Female,Loafers,All-Season,8.5,3262.29
+Reebok,Yellow,Male,Sandals,Summer,7.7,709.18
+Skechers,Pink,Unisex,Formal Shoes,Summer,5.5,18889.14
+Reebok,White,Female,Sandals,Summer,2.6,6526.82
+Under Armour,Pink,Unisex,Sandals,All-Season,6.4,6000.66
+Under Armour,Blue,Unisex,Formal Shoes,Spring,7.3,13156.41
+Puma,Brown,Female,Formal Shoes,Winter,6.5,1007.31
+Reebok,Red,Female,Loafers,All-Season,3.4,552.92
+Reebok,Black,Female,Loafers,All-Season,6.6,6630.71
+Puma,Orange,Male,Sandals,Summer,9.4,12563.75
+Reebok,Gray,Unisex,Formal Shoes,Summer,4.8,5642.43
+Reebok,Gray,Male,Casual Shoes,Summer,3.9,17822.3
+Fila,Black,Male,Sandals,Summer,9.2,4927.18
+Under Armour,Yellow,Male,Casual Shoes,Spring,8.0,1917.77
+Nike,Green,Male,Formal Shoes,Spring,8.6,7740.77
+Nike,Black,Female,Loafers,Summer,9.4,4584.21
+Fila,Orange,Unisex,Boots,Spring,1.5,12381.54
+Fila,Blue,Male,Boots,Summer,3.1,5152.55
+Reebok,Pink,Female,Formal Shoes,Summer,7.2,17499.59
+Reebok,Black,Female,Sandals,Spring,2.1,8323.68
+Nike,Gray,Female,Sandals,Summer,2.7,19133.12
+Adidas,Red,Female,Boots,Summer,3.9,18046.82
+Nike,Pink,Male,Formal Shoes,Summer,9.4,4285.54
+Nike,Pink,Unisex,Boots,Summer,3.4,17793.4
+Nike,Orange,Female,Casual Shoes,Summer,4.5,7162.63
+Reebok,Yellow,Unisex,Running Shoes,Winter,4.4,4812.56
+New Balance,Pink,Female,Loafers,Winter,6.1,15048.52
+Reebok,Yellow,Male,Formal Shoes,Winter,9.6,12487.7
+Fila,Black,Unisex,Formal Shoes,All-Season,6.4,9983.23
+Fila,Brown,Male,Formal Shoes,Summer,4.6,5131.4
+Reebok,Red,Male,Sneakers,Winter,6.8,6978.21
+New Balance,Black,Unisex,Sneakers,All-Season,8.1,15516.63
+Nike,White,Unisex,Boots,Spring,4.7,7191.94
+Adidas,Brown,Female,Casual Shoes,Summer,2.2,8701.03
+Reebok,Green,Unisex,Formal Shoes,Summer,2.7,19462.19
+Reebok,White,Female,Boots,Winter,9.7,5258.92
+Puma,Red,Female,Running Shoes,Spring,3.8,7416.31
+Under Armour,White,Male,Running Shoes,Spring,6.1,14942.94
+Converse,Yellow,Female,Sandals,Winter,6.3,17454.36
+Skechers,Brown,Female,Boots,Spring,2.3,947.51
+Nike,Pink,Unisex,Formal Shoes,All-Season,3.1,16545.93
+Reebok,Red,Male,Sandals,Winter,1.2,7619.85
+Reebok,Pink,Male,Casual Shoes,Winter,2.9,13255.07
+Adidas,Orange,Unisex,Casual Shoes,Summer,5.3,8732.74
+Nike,Blue,Female,Boots,Spring,1.1,8044.94
+Fila,Orange,Unisex,Casual Shoes,Summer,4.0,17039.37
+Nike,Green,Unisex,Sandals,All-Season,2.3,10188.29
+Reebok,Gray,Unisex,Casual Shoes,Winter,4.6,9807.68
+Reebok,Green,Male,Boots,Winter,1.3,12319.24
+Puma,Black,Female,Casual Shoes,Winter,6.6,1847.05
+Under Armour,Brown,Unisex,Running Shoes,Spring,8.8,6242.9
+Reebok,Brown,Female,Formal Shoes,Winter,5.5,19578.33
+Converse,Yellow,Unisex,Sneakers,All-Season,4.7,3192.76
+Under Armour,White,Male,Loafers,Spring,7.7,19972.74
+Fila,Black,Unisex,Formal Shoes,Summer,9.3,10939.29
+Nike,Blue,Unisex,Running Shoes,Spring,1.8,15989.02
+Under Armour,Green,Male,Running Shoes,Summer,2.8,16062.26
+Fila,Yellow,Male,Sandals,Winter,2.0,7500.62
+New Balance,Yellow,Unisex,Boots,Summer,3.5,8199.7
+Nike,Pink,Female,Running Shoes,Summer,6.4,10083.97
+Nike,Brown,Unisex,Formal Shoes,Summer,1.5,11042.09
+Nike,Pink,Male,Sandals,Winter,9.0,13832.53
+Reebok,Green,Unisex,Running Shoes,All-Season,6.0,14535.28
+Fila,Black,Female,Formal Shoes,All-Season,8.5,15548.81
+Nike,Green,Unisex,Running Shoes,Summer,8.6,12460.04
+Reebok,Black,Female,Formal Shoes,Summer,7.3,8887.08
+Fila,Black,Female,Formal Shoes,All-Season,5.0,7412.57
+Reebok,Black,Female,Casual Shoes,Summer,2.1,14023.53
+Reebok,Gray,Male,Sneakers,Spring,6.4,12874.13
+Reebok,Red,Unisex,Loafers,Winter,7.7,15945.25
+Nike,Yellow,Female,Boots,Summer,2.5,8780.39
+Fila,White,Unisex,Formal Shoes,Summer,6.5,5136.97
+Reebok,Orange,Unisex,Formal Shoes,Winter,1.2,17029.88
+Nike,White,Unisex,Sandals,All-Season,2.1,7955.99
+Fila,Pink,Unisex,Casual Shoes,Winter,6.5,19762.97
+New Balance,Black,Male,Sneakers,Spring,3.2,7687.43
+Nike,Green,Male,Casual Shoes,Winter,4.7,12625.17
+Fila,Gray,Male,Sneakers,All-Season,3.5,12365.42
+Under Armour,White,Female,Loafers,Summer,6.0,14370.36
+Under Armour,Brown,Female,Boots,Spring,1.3,11061.94
+Reebok,White,Female,Formal Shoes,Winter,8.0,2746.32
+Reebok,Black,Male,Sandals,Winter,1.1,4466.66
+Reebok,Yellow,Female,Sandals,Winter,8.1,13687.51
+Adidas,Orange,Male,Sneakers,Summer,7.0,13609.34
+Puma,Blue,Unisex,Casual Shoes,Summer,5.0,6553.41
+Puma,Gray,Female,Sandals,Summer,5.6,18744.88
+New Balance,Yellow,Unisex,Sneakers,Spring,8.0,1131.4
+Fila,Black,Male,Sandals,Winter,5.4,6709.48
+Puma,Black,Female,Sneakers,Spring,3.9,1381.41
+Under Armour,Yellow,Female,Boots,Summer,9.5,12262.61
+Under Armour,Blue,Female,Casual Shoes,Winter,7.6,16278.41
+Puma,Yellow,Male,Running Shoes,Winter,6.3,1875.22
+Reebok,Black,Male,Casual Shoes,Winter,7.1,17884.21
+Skechers,Black,Female,Running Shoes,Winter,1.9,14281.93
+Under Armour,Red,Unisex,Casual Shoes,All-Season,4.7,3338.95
+Fila,Gray,Unisex,Running Shoes,All-Season,4.4,13650.39
+Under Armour,White,Unisex,Formal Shoes,Summer,4.8,12909.02
+New Balance,Green,Female,Boots,Spring,5.0,8221.73
+Reebok,Orange,Male,Loafers,All-Season,6.7,17110.69
+Fila,Red,Unisex,Sneakers,All-Season,5.6,11264.55
+Skechers,Orange,Male,Running Shoes,Spring,4.7,11670.57
+Reebok,Orange,Female,Sneakers,All-Season,7.1,4102.07
+Puma,Blue,Female,Sandals,Summer,6.9,7137.7
+Fila,Gray,Unisex,Running Shoes,Winter,1.3,3189.86
+Nike,Black,Male,Sneakers,Winter,4.0,13109.92
+Skechers,Green,Male,Loafers,Spring,8.9,8731.14
+Reebok,Brown,Female,Running Shoes,Spring,7.6,10197.47
+Reebok,Gray,Male,Formal Shoes,Summer,9.9,16003.95
+Reebok,White,Unisex,Loafers,Winter,4.4,12531.16
+Reebok,Green,Female,Running Shoes,All-Season,1.5,6877.38
+ASICS,Pink,Unisex,Loafers,Summer,8.2,15633.94
+Puma,Orange,Male,Sneakers,Winter,7.9,14653.73
+Fila,Green,Unisex,Formal Shoes,Spring,8.4,10378.18
+Skechers,Brown,Unisex,Loafers,All-Season,8.4,18719.92
+Nike,Yellow,Unisex,Sandals,All-Season,3.6,10231.67
+Nike,Brown,Unisex,Loafers,Winter,5.4,2808.86
+Reebok,Black,Female,Formal Shoes,Winter,8.8,7094.84
+Reebok,Pink,Male,Running Shoes,Summer,3.5,16090.58
+Nike,Blue,Unisex,Casual Shoes,Summer,9.9,7903.15
+Reebok,Pink,Male,Sandals,Spring,9.7,12975.58
+Reebok,Blue,Unisex,Boots,Spring,2.7,12068.03
+Reebok,Yellow,Unisex,Loafers,Summer,2.7,14424.8
+Fila,Pink,Unisex,Sandals,Summer,9.0,2948.2
+Reebok,White,Male,Sandals,Summer,3.5,16891.4
+Reebok,Red,Unisex,Sneakers,All-Season,7.6,16781.57
+Under Armour,Pink,Unisex,Casual Shoes,Winter,5.6,1108.01
+Skechers,Yellow,Unisex,Loafers,Summer,6.5,18328.3
+Reebok,Brown,Female,Casual Shoes,Winter,2.2,5670.99
+Reebok,Pink,Unisex,Sandals,Winter,5.9,14968.88
+Reebok,Black,Female,Formal Shoes,All-Season,9.1,17883.87
+Under Armour,Green,Female,Sandals,All-Season,5.8,10358.37
+Reebok,Red,Female,Casual Shoes,Summer,8.3,15668.37
+Adidas,Brown,Male,Sandals,Winter,2.6,19439.8
+Under Armour,Orange,Male,Sneakers,Summer,9.7,5068.46
+Reebok,Yellow,Unisex,Running Shoes,Spring,2.5,7504.41
+Fila,White,Female,Loafers,All-Season,1.7,1931.59
+Puma,Orange,Female,Loafers,Winter,9.2,14378.35
+Nike,Green,Female,Running Shoes,Summer,3.4,8401.94
+Puma,Black,Female,Sneakers,Spring,9.2,9393.08
+Reebok,Green,Male,Running Shoes,Spring,2.3,3955.45
+Skechers,Orange,Female,Boots,Spring,3.3,10739.96
+New Balance,Orange,Unisex,Loafers,Summer,8.2,5325.14
+ASICS,Yellow,Female,Loafers,All-Season,8.9,7329.37
+Under Armour,Blue,Unisex,Sandals,Winter,2.6,16858.38
+Skechers,Blue,Male,Sandals,All-Season,1.1,2181.6
+Reebok,Red,Unisex,Formal Shoes,Spring,6.6,1531.09
+Skechers,Blue,Unisex,Casual Shoes,All-Season,6.2,941.63
+Fila,Black,Female,Casual Shoes,All-Season,4.7,17157.83
+Nike,Green,Unisex,Casual Shoes,Winter,4.0,19320.3
+Nike,Brown,Female,Sneakers,Summer,7.2,700.3
+Nike,Orange,Unisex,Running Shoes,Spring,9.6,17554.5
+Puma,Blue,Unisex,Loafers,All-Season,8.1,13624.83
+New Balance,Black,Unisex,Loafers,Spring,9.3,19813.85
+Reebok,Pink,Male,Sandals,Spring,2.1,13106.34
+Fila,Green,Female,Sneakers,All-Season,3.2,8923.45
+Fila,Gray,Female,Sandals,Summer,5.2,14862.76
+Nike,Brown,Female,Running Shoes,Winter,2.2,9362.35
+Skechers,Gray,Male,Loafers,Spring,7.1,3068.58
+Adidas,Black,Male,Running Shoes,Winter,1.1,17830.83
+Nike,Red,Unisex,Loafers,All-Season,4.5,15854.31
+Nike,Red,Unisex,Running Shoes,Winter,2.6,7466.43
+Reebok,Black,Female,Boots,Winter,7.8,16261.44
+Under Armour,Black,Unisex,Loafers,Winter,1.2,2632.42
+Puma,Red,Unisex,Formal Shoes,All-Season,3.1,6199.9
+Reebok,Pink,Female,Boots,Summer,8.0,18405.68
+Fila,White,Male,Loafers,Winter,8.2,10709.15
+Puma,Green,Female,Sneakers,Winter,4.2,11478.36
+Fila,Black,Male,Boots,Winter,4.1,6701.81
+Puma,Yellow,Male,Loafers,Spring,3.3,11127.57
+ASICS,Gray,Unisex,Sandals,Spring,1.3,10603.4
+Fila,Pink,Unisex,Casual Shoes,All-Season,2.3,14004.68
+Skechers,White,Male,Sandals,All-Season,7.5,3779.97
+Nike,Red,Unisex,Sandals,Summer,7.9,7970.91
+New Balance,Green,Male,Running Shoes,All-Season,6.8,4383.21
+Reebok,Green,Female,Formal Shoes,Summer,8.7,12349.36
+Nike,Gray,Unisex,Loafers,Summer,2.8,17863.28
+Nike,Blue,Female,Running Shoes,Spring,7.9,17224.33
+Fila,Gray,Female,Casual Shoes,Spring,2.6,7064.52
+Reebok,White,Male,Formal Shoes,Summer,3.7,1658.86
+Reebok,Yellow,Female,Loafers,Summer,4.2,5184.91
+Nike,Brown,Male,Loafers,All-Season,2.9,1129.19
+Reebok,Red,Male,Sandals,Winter,9.6,16341.8
+Nike,Gray,Male,Formal Shoes,Spring,1.3,8469.09
+Reebok,Pink,Unisex,Running Shoes,All-Season,3.9,4483.43
+Fila,White,Male,Loafers,Summer,4.0,10582.27
+Fila,Blue,Unisex,Sandals,All-Season,9.2,18687.11
+Nike,White,Female,Sneakers,Summer,1.6,19075.73
+Under Armour,Gray,Female,Formal Shoes,Winter,1.2,4948.85
+Fila,Brown,Unisex,Sandals,All-Season,4.5,19547.29
+Under Armour,Black,Female,Boots,Spring,3.6,18142.85
+Nike,White,Female,Boots,Spring,3.1,8107.26
+Nike,Blue,Female,Casual Shoes,Summer,9.4,3334.88
+Reebok,Orange,Male,Sneakers,All-Season,8.9,16201.35
+Reebok,Pink,Female,Sneakers,All-Season,2.5,11265.8
+Reebok,Brown,Male,Sneakers,Winter,5.9,6374.72
+Reebok,Pink,Unisex,Casual Shoes,Spring,9.4,14615.19
+Nike,Gray,Male,Loafers,Winter,9.7,15800.91
+Reebok,Green,Unisex,Casual Shoes,Winter,8.7,9031.88
+Under Armour,White,Male,Sandals,Winter,5.3,4322.08
+Reebok,Red,Unisex,Casual Shoes,Summer,5.2,10891.72
+Nike,Brown,Female,Sneakers,Spring,5.6,9557.0
+Reebok,Orange,Unisex,Formal Shoes,Winter,2.6,12586.84
+Puma,Brown,Unisex,Loafers,Spring,9.3,7381.32
+Under Armour,Black,Male,Boots,Summer,8.7,5189.59
+Reebok,Blue,Female,Casual Shoes,Spring,4.9,16104.58
+Fila,Brown,Female,Loafers,Summer,4.6,17464.23
+Fila,Blue,Female,Sandals,Winter,2.3,7315.3
+New Balance,Brown,Unisex,Sandals,Winter,7.3,3026.95
+Reebok,White,Female,Loafers,Spring,5.1,18990.38
+Reebok,White,Male,Formal Shoes,Winter,7.9,16122.75
+ASICS,Orange,Female,Loafers,All-Season,7.9,19750.27
+Reebok,Brown,Female,Sandals,Summer,7.9,12720.73
+Reebok,Green,Female,Casual Shoes,Winter,5.6,15038.33
+Reebok,Green,Unisex,Boots,Winter,9.3,8321.27
+Under Armour,Green,Male,Formal Shoes,Summer,2.9,17053.2
+Reebok,Brown,Female,Running Shoes,All-Season,6.7,1828.95
+Nike,Pink,Unisex,Sneakers,Winter,7.7,9519.39
+Nike,Blue,Female,Loafers,All-Season,2.0,11440.78
+Nike,Blue,Unisex,Sneakers,Winter,3.2,18281.59
+Reebok,Black,Male,Loafers,All-Season,2.2,15006.47
+Nike,Blue,Unisex,Formal Shoes,Spring,4.4,9556.8
+Reebok,Orange,Female,Boots,All-Season,8.4,9901.26
+Nike,Gray,Male,Casual Shoes,Summer,1.9,4705.34
+Under Armour,Gray,Female,Casual Shoes,Spring,8.5,15929.8
+Under Armour,Pink,Unisex,Running Shoes,Summer,4.5,12477.52
+Fila,White,Male,Running Shoes,Winter,3.0,18240.9
+Reebok,Red,Male,Boots,Spring,7.1,15734.86
+New Balance,Brown,Unisex,Casual Shoes,Winter,4.6,4621.94
+New Balance,Gray,Male,Casual Shoes,Spring,8.8,9521.59
+Reebok,Orange,Unisex,Loafers,Spring,8.1,7348.97
+Nike,Black,Female,Boots,Winter,6.6,12854.16
+Reebok,Red,Female,Running Shoes,All-Season,9.6,1072.2
+Reebok,Orange,Unisex,Boots,Summer,9.8,3648.12
+Reebok,Yellow,Unisex,Casual Shoes,Spring,1.8,19025.01
+New Balance,Brown,Female,Sneakers,Spring,4.1,14649.24
+Nike,Gray,Unisex,Running Shoes,Spring,8.9,17449.22
+Reebok,Pink,Male,Boots,Spring,5.0,10135.22
+Reebok,Green,Unisex,Running Shoes,Winter,2.0,3733.61
+Nike,Brown,Unisex,Formal Shoes,All-Season,8.5,10417.09
+Reebok,Green,Female,Loafers,All-Season,2.9,6680.48
+Reebok,Brown,Male,Casual Shoes,All-Season,8.3,11589.73
+Converse,Black,Male,Sneakers,Spring,7.7,13238.82
+Reebok,White,Female,Sneakers,All-Season,5.4,2971.28
+Reebok,Orange,Male,Boots,Summer,8.8,7471.67
+Nike,Gray,Male,Boots,All-Season,7.6,17776.06
+Skechers,Pink,Male,Boots,Summer,1.6,16492.88
+Reebok,Gray,Male,Sneakers,All-Season,6.3,15439.79
+Reebok,Green,Unisex,Loafers,Spring,3.9,7078.13
+Skechers,Red,Male,Formal Shoes,All-Season,1.3,12759.49
+Reebok,Black,Female,Casual Shoes,Spring,8.9,1970.26
+Nike,Brown,Unisex,Loafers,Winter,9.5,719.1
+Fila,Pink,Unisex,Sandals,Winter,6.5,7980.91
+Fila,White,Female,Loafers,All-Season,8.6,1533.93
+Reebok,Black,Unisex,Casual Shoes,Winter,4.4,7379.57
+Fila,Brown,Male,Formal Shoes,Summer,5.0,12224.83
+Reebok,Red,Male,Casual Shoes,Summer,7.3,5580.01
+Nike,Red,Male,Sandals,Winter,9.6,16051.15
+ASICS,Gray,Male,Boots,Spring,1.6,6979.7
+Reebok,Yellow,Female,Boots,Winter,5.9,15140.44
+Skechers,Gray,Male,Formal Shoes,Spring,9.9,3673.65
+Reebok,Orange,Male,Running Shoes,Summer,2.8,12139.82
+Puma,Red,Unisex,Boots,All-Season,5.8,8816.58
+Under Armour,Black,Unisex,Casual Shoes,Spring,6.7,6354.07
+Adidas,White,Unisex,Casual Shoes,Spring,2.4,4138.79
+New Balance,Yellow,Unisex,Running Shoes,Winter,7.3,9515.91
+Fila,Gray,Female,Sandals,Spring,3.8,4888.65
+Adidas,Pink,Female,Casual Shoes,Spring,9.8,4918.63
+Reebok,Red,Unisex,Running Shoes,Summer,1.8,17036.52
+Reebok,Pink,Female,Boots,Summer,9.3,3082.96
+Fila,Green,Female,Sandals,Summer,2.3,19549.92
+Skechers,Blue,Female,Sandals,All-Season,8.4,18725.81
+Reebok,Red,Male,Casual Shoes,All-Season,4.2,10763.82
+Reebok,Blue,Male,Sneakers,Spring,1.5,3931.07
+Puma,Brown,Unisex,Running Shoes,Winter,6.5,8811.14
+Reebok,Orange,Female,Running Shoes,All-Season,4.7,10054.22
+Reebok,Brown,Unisex,Sneakers,Spring,2.5,14971.45
+Reebok,Gray,Male,Loafers,Winter,4.0,16645.89
+Puma,Yellow,Female,Casual Shoes,Winter,3.8,16492.83
+Fila,Brown,Female,Sandals,All-Season,4.5,10946.74
+New Balance,Green,Male,Boots,Winter,2.5,14716.16
+Skechers,Red,Male,Formal Shoes,Winter,5.1,17289.52
+Reebok,Pink,Female,Sneakers,Winter,1.3,11104.25
+Skechers,Black,Male,Formal Shoes,All-Season,3.3,12437.24
+Skechers,Yellow,Male,Casual Shoes,All-Season,9.2,17646.08
+Reebok,Yellow,Male,Sneakers,Spring,6.8,1616.56
+Under Armour,Green,Female,Sneakers,All-Season,7.8,15766.4
+Fila,Yellow,Unisex,Running Shoes,Spring,1.8,18510.62
+Reebok,Pink,Male,Sandals,All-Season,5.9,6973.39
+Fila,Gray,Male,Boots,Spring,3.1,9973.61
+Nike,White,Male,Formal Shoes,Summer,3.9,2913.05
+Fila,Pink,Female,Running Shoes,Spring,4.9,7953.96
+Reebok,Yellow,Female,Casual Shoes,Spring,1.4,15859.84
+New Balance,Black,Female,Sneakers,Summer,9.1,6135.43
+Reebok,Yellow,Male,Sneakers,Summer,4.8,13555.87
+Reebok,Green,Unisex,Sandals,All-Season,6.9,14368.51
+Reebok,Orange,Female,Formal Shoes,Spring,7.7,12647.75
+Nike,White,Unisex,Casual Shoes,Spring,6.9,5170.1
+Fila,Black,Male,Sneakers,Spring,4.9,8774.45
+Reebok,Gray,Unisex,Sandals,Summer,6.5,5477.81
+Under Armour,Green,Female,Loafers,All-Season,2.8,11142.4
+Fila,Red,Male,Sneakers,All-Season,8.8,1931.46
+Nike,Yellow,Unisex,Sneakers,Spring,7.7,7061.51
+Reebok,White,Female,Boots,Spring,2.4,10268.52
+Reebok,Orange,Unisex,Sandals,Summer,3.4,18853.03
+Fila,Blue,Male,Sneakers,All-Season,8.8,14213.52
+Nike,Orange,Male,Sandals,Winter,6.6,14073.0
+Skechers,Orange,Male,Running Shoes,Summer,7.2,8738.46
+Reebok,Red,Female,Sneakers,All-Season,9.9,7122.95
+Reebok,Pink,Unisex,Running Shoes,Winter,8.7,19636.71
+Reebok,Brown,Unisex,Boots,All-Season,3.6,17567.78
+Under Armour,Brown,Male,Boots,Spring,3.4,9821.47
+Reebok,Red,Unisex,Sneakers,Spring,8.3,12382.74
+New Balance,Yellow,Unisex,Sneakers,All-Season,6.9,8689.53
+Nike,Blue,Male,Casual Shoes,Winter,7.9,7489.25
+Reebok,Black,Female,Boots,Spring,1.4,10669.65
+Skechers,White,Male,Sneakers,Spring,4.4,8533.65
+Reebok,Red,Female,Running Shoes,Summer,3.6,6813.08
+Nike,Brown,Female,Formal Shoes,All-Season,7.9,14811.56
+Skechers,Blue,Female,Boots,Summer,8.1,9691.57
+Fila,Green,Unisex,Running Shoes,All-Season,6.5,12630.82
+Reebok,White,Unisex,Boots,Summer,9.5,1389.26
+Adidas,Yellow,Male,Boots,All-Season,5.2,15100.09
+Fila,White,Unisex,Boots,All-Season,1.8,17004.05
+Nike,Gray,Female,Formal Shoes,Winter,1.1,11563.15
+Nike,Red,Unisex,Formal Shoes,Spring,9.2,4564.92
+Nike,White,Male,Formal Shoes,All-Season,8.2,2889.54
+Puma,Red,Male,Sandals,All-Season,6.8,6820.81
+Reebok,Brown,Female,Loafers,Winter,6.0,9943.43
+Fila,Green,Female,Boots,Winter,5.1,3740.54
+Reebok,Brown,Female,Loafers,Summer,8.9,7621.07
+Reebok,Red,Female,Casual Shoes,Spring,8.1,5336.21
+Fila,Yellow,Female,Casual Shoes,All-Season,3.0,1148.17
+Nike,Yellow,Unisex,Loafers,All-Season,7.5,6824.05
+Reebok,Orange,Unisex,Formal Shoes,All-Season,9.8,12366.43
+Reebok,Pink,Unisex,Casual Shoes,Winter,8.9,8752.48
+Adidas,Gray,Female,Casual Shoes,All-Season,5.2,6806.11
+Puma,White,Male,Formal Shoes,All-Season,3.8,7928.48
+Reebok,Yellow,Male,Boots,Summer,8.8,11274.05
+Reebok,Brown,Unisex,Casual Shoes,Summer,2.0,15528.46
+Reebok,Gray,Unisex,Loafers,Spring,3.6,18345.32
+Nike,Blue,Male,Casual Shoes,Summer,8.2,3996.92
+Puma,Blue,Female,Boots,Summer,8.4,9618.21
+Reebok,Pink,Male,Loafers,Spring,8.0,12012.89
+Under Armour,Green,Female,Sandals,Winter,6.9,1497.39
+Reebok,Orange,Unisex,Loafers,All-Season,5.7,17568.83
+Converse,Blue,Male,Sneakers,Spring,10.0,17124.43
+Under Armour,Red,Unisex,Running Shoes,Spring,5.2,5434.09
+Fila,Green,Male,Formal Shoes,Winter,5.2,15004.35
+Nike,Yellow,Male,Casual Shoes,Winter,3.4,14878.06
+Nike,Brown,Unisex,Running Shoes,Summer,5.5,13487.99
+Reebok,Green,Female,Loafers,Spring,2.3,6712.08
+Reebok,Black,Male,Boots,Winter,8.9,4629.11
+Reebok,Yellow,Male,Boots,Spring,3.5,17026.85
+Nike,Green,Unisex,Loafers,All-Season,4.8,6659.23
+Under Armour,Black,Male,Sneakers,Summer,9.5,17396.83
+Reebok,Orange,Female,Sneakers,Spring,7.1,16234.38
+Reebok,Yellow,Unisex,Sneakers,Summer,4.0,4440.04
+New Balance,Black,Male,Sandals,Winter,9.5,16359.82
+Converse,Orange,Unisex,Running Shoes,Spring,4.6,859.88
+Nike,Yellow,Male,Formal Shoes,Summer,5.3,12697.71
+Puma,Pink,Female,Casual Shoes,Summer,6.2,12094.52
+Reebok,Red,Female,Running Shoes,Spring,6.6,3786.33
+Reebok,Green,Unisex,Sneakers,All-Season,2.5,1833.92
+Fila,Pink,Unisex,Sandals,Spring,8.7,8264.56
+Reebok,Gray,Unisex,Sandals,Spring,7.3,14005.32
+Under Armour,Black,Male,Running Shoes,All-Season,1.7,11220.06
+Reebok,Orange,Male,Sandals,Spring,9.4,5561.49
+Reebok,Yellow,Female,Running Shoes,All-Season,3.2,647.41
+Reebok,Yellow,Unisex,Running Shoes,Winter,4.2,7959.95
+Nike,Yellow,Female,Running Shoes,All-Season,9.4,16355.91
+New Balance,Green,Male,Formal Shoes,All-Season,6.0,6423.6
+Nike,Orange,Male,Sneakers,All-Season,5.5,16743.27
+Reebok,Red,Unisex,Loafers,Spring,5.0,16286.94
+Nike,Yellow,Male,Formal Shoes,Spring,8.8,17318.88
+Fila,Blue,Male,Loafers,Winter,9.2,1746.52
+Nike,Green,Male,Sandals,Summer,5.7,8280.53
+Reebok,Gray,Male,Boots,All-Season,4.6,9296.36
+Fila,Red,Male,Running Shoes,Spring,8.1,11419.13
+Puma,White,Unisex,Loafers,Spring,6.0,8600.36
+Reebok,Gray,Male,Boots,All-Season,7.6,12431.93
+New Balance,White,Male,Boots,Winter,6.0,15439.59
+Puma,Black,Male,Sneakers,All-Season,2.7,8134.12
+Reebok,Black,Unisex,Loafers,Spring,3.7,9606.95
+Nike,Orange,Female,Loafers,Spring,6.0,16673.27
+New Balance,Yellow,Unisex,Formal Shoes,All-Season,1.6,7904.82
+Fila,Red,Female,Sandals,Winter,2.2,14395.03
+Puma,White,Female,Sandals,Summer,6.8,15869.8
+Puma,Blue,Female,Loafers,Winter,8.9,6622.83
+Fila,Brown,Male,Casual Shoes,Winter,7.7,3029.47
+Converse,Black,Female,Boots,Summer,5.1,9940.08
+Reebok,Brown,Unisex,Running Shoes,All-Season,8.8,12584.02
+Fila,Pink,Male,Formal Shoes,All-Season,2.0,10927.73
+Reebok,Red,Female,Sandals,Summer,2.8,11347.23
+Reebok,White,Unisex,Running Shoes,Summer,4.2,16806.07
+Under Armour,Green,Unisex,Running Shoes,All-Season,3.0,4877.37
+Reebok,Red,Male,Casual Shoes,Summer,6.1,14500.99
+Reebok,Orange,Male,Loafers,Spring,4.0,9446.44
+Under Armour,White,Unisex,Sandals,All-Season,1.9,16107.11
+Fila,Pink,Male,Casual Shoes,Winter,2.5,16756.84
+New Balance,Gray,Male,Loafers,Summer,2.0,10894.58
+Reebok,Gray,Male,Formal Shoes,Spring,7.1,3487.01
+Adidas,Brown,Unisex,Boots,Summer,4.0,16132.56
+Reebok,Gray,Male,Loafers,Summer,6.7,15349.58
+Reebok,White,Female,Boots,Spring,4.7,4766.8
+Reebok,Yellow,Female,Sneakers,All-Season,8.4,1949.07
+Reebok,Blue,Male,Sandals,All-Season,3.8,12966.74
+Nike,White,Female,Boots,Winter,8.7,16147.15
+Reebok,Yellow,Female,Running Shoes,Summer,2.2,15596.98
+Nike,Blue,Unisex,Boots,Winter,2.3,11278.26
+Under Armour,Pink,Female,Formal Shoes,All-Season,4.7,12705.62
+Nike,Pink,Female,Running Shoes,Winter,2.9,11559.17
+Reebok,Brown,Male,Sandals,Spring,1.7,16346.01
+Reebok,Black,Male,Casual Shoes,Winter,1.4,2643.16
+Puma,Yellow,Male,Loafers,Spring,9.8,5377.15
+Reebok,Brown,Male,Boots,Summer,9.5,15603.95
+Reebok,Black,Male,Casual Shoes,Spring,4.3,17504.31
+Reebok,White,Unisex,Loafers,Summer,1.5,2290.56
+Reebok,Yellow,Female,Sandals,Summer,2.9,13511.8
+Puma,Gray,Female,Formal Shoes,Summer,6.5,9410.86
+Under Armour,Red,Female,Boots,All-Season,6.1,7420.49
+Fila,Blue,Unisex,Casual Shoes,Winter,1.2,1934.54
+Reebok,Blue,Female,Sneakers,All-Season,5.2,2238.09
+Reebok,Black,Unisex,Sneakers,Winter,6.0,12151.62
+Puma,Gray,Female,Loafers,Spring,6.9,8732.46
+Nike,Brown,Unisex,Sandals,All-Season,2.3,6788.4
+Fila,Pink,Unisex,Loafers,Spring,7.6,15157.68
+Reebok,Brown,Female,Formal Shoes,Spring,3.9,15490.97
+Nike,Green,Female,Running Shoes,Summer,9.9,2901.52
+Reebok,Pink,Male,Loafers,Spring,7.0,15555.34
+Reebok,Yellow,Female,Loafers,Spring,8.2,8775.26
+Fila,Brown,Unisex,Formal Shoes,Summer,2.5,16535.72
+Skechers,Red,Female,Formal Shoes,Winter,5.9,16344.66
+Converse,White,Female,Sandals,Winter,2.6,10981.47
+Reebok,Red,Male,Loafers,All-Season,1.7,9595.24
+Skechers,Red,Unisex,Sneakers,Summer,8.5,11656.24
+Reebok,Green,Male,Loafers,All-Season,5.3,786.39
+Fila,Red,Female,Sandals,Spring,7.9,17296.77
+Reebok,Orange,Unisex,Formal Shoes,Summer,1.7,2213.34
+Adidas,Blue,Unisex,Formal Shoes,All-Season,3.3,17383.99
+Skechers,Green,Male,Formal Shoes,Summer,8.4,14920.74
+Nike,Blue,Female,Boots,All-Season,4.8,13768.94
+Under Armour,Red,Unisex,Casual Shoes,Summer,5.6,14520.74
+Reebok,Gray,Unisex,Boots,Winter,9.7,3444.16
+Nike,Green,Unisex,Sandals,All-Season,8.8,8912.18
+Under Armour,Pink,Unisex,Sneakers,Winter,7.4,9084.91
+Reebok,White,Male,Boots,Summer,2.9,10428.96
+Nike,Pink,Male,Formal Shoes,Spring,1.5,541.73
+Skechers,Yellow,Female,Running Shoes,Summer,8.4,8399.89
+Puma,Orange,Unisex,Running Shoes,Summer,4.3,2398.81
+Reebok,Brown,Unisex,Casual Shoes,Summer,3.4,8849.25
+Converse,Gray,Unisex,Sandals,Summer,4.8,3006.92
+Fila,Gray,Unisex,Formal Shoes,Winter,8.4,1582.64
+Adidas,Yellow,Female,Sneakers,Summer,6.4,10510.81
+Reebok,Black,Male,Formal Shoes,All-Season,2.2,11055.49
+Reebok,Brown,Unisex,Casual Shoes,Spring,9.3,3172.49
+Reebok,White,Female,Formal Shoes,Summer,1.4,8533.89
+Reebok,Yellow,Female,Running Shoes,Summer,8.0,13856.22
+Puma,Gray,Unisex,Boots,Winter,1.6,4962.1
+Converse,Black,Female,Boots,Summer,2.5,1437.95
+New Balance,Yellow,Male,Sneakers,Summer,2.6,13832.49
+Reebok,Orange,Female,Formal Shoes,Winter,6.1,11813.04
+Under Armour,Red,Male,Sneakers,Spring,8.0,2584.61
+Puma,Brown,Unisex,Boots,All-Season,9.4,1465.47
+Reebok,Pink,Unisex,Casual Shoes,Spring,8.8,15499.88
+Under Armour,Green,Female,Loafers,Winter,1.6,16675.0
+Reebok,Blue,Female,Sandals,Winter,7.6,2925.34
+Reebok,Red,Female,Sneakers,All-Season,7.9,13453.1
+Nike,Gray,Male,Sneakers,Winter,7.4,12615.13
+Nike,Yellow,Female,Boots,Winter,8.5,19764.59
+New Balance,Brown,Unisex,Casual Shoes,Summer,8.8,18537.6
+Puma,Red,Unisex,Boots,Winter,1.4,4485.4
+ASICS,Gray,Male,Sandals,Summer,7.4,16332.25
+Nike,Blue,Male,Boots,Summer,5.2,18512.41
+Puma,Pink,Female,Casual Shoes,Winter,4.1,12706.64
+Reebok,Blue,Male,Boots,Spring,9.3,7042.67
+Reebok,Brown,Unisex,Loafers,All-Season,6.1,3750.54
+Reebok,Orange,Unisex,Boots,Spring,5.6,3925.22
+Reebok,Brown,Male,Loafers,All-Season,3.0,14937.96
+Reebok,Blue,Female,Casual Shoes,Summer,7.1,1621.85
+Nike,White,Unisex,Sneakers,Summer,3.1,16527.46
+Nike,Black,Unisex,Formal Shoes,All-Season,2.5,18023.28
+Fila,Orange,Female,Formal Shoes,Winter,3.5,1495.42
+Nike,Red,Male,Running Shoes,Spring,4.3,18619.76
+Reebok,Orange,Male,Formal Shoes,Summer,2.5,5225.26
+Reebok,Yellow,Male,Casual Shoes,All-Season,4.7,9529.06
+Nike,Brown,Male,Sandals,Spring,8.7,15151.51
+Nike,Orange,Male,Sneakers,Summer,7.4,13642.94
+Nike,Orange,Female,Casual Shoes,Winter,1.1,17284.7
+Fila,Red,Male,Running Shoes,Winter,2.4,3836.09
+Adidas,Gray,Female,Formal Shoes,Spring,5.3,13564.05
+Nike,Green,Unisex,Running Shoes,Winter,1.5,5737.86
+Skechers,Green,Male,Loafers,Winter,3.0,13174.67
+Nike,Yellow,Female,Boots,Summer,9.9,2815.98
+Reebok,White,Male,Sandals,All-Season,4.6,13448.43
+Reebok,White,Unisex,Sandals,Summer,2.2,10642.22
+Puma,Pink,Male,Loafers,Winter,8.3,8096.96
+Reebok,Gray,Unisex,Loafers,Spring,6.5,18988.68
+Nike,Brown,Female,Sandals,Spring,9.8,13161.74
+Reebok,Green,Unisex,Loafers,All-Season,7.5,18325.96
+Reebok,Gray,Male,Running Shoes,All-Season,5.4,1187.17
+Converse,Yellow,Unisex,Sneakers,Winter,9.6,2783.02
+Nike,Blue,Unisex,Formal Shoes,Winter,7.5,4403.73
+Reebok,Pink,Female,Running Shoes,All-Season,2.6,13871.32
+Reebok,Pink,Female,Casual Shoes,Winter,4.2,8636.68
+Reebok,Green,Male,Running Shoes,All-Season,9.0,3473.41
+Reebok,Gray,Female,Boots,Winter,9.2,9581.51
+Fila,Brown,Male,Sneakers,Summer,5.2,7668.46
+Skechers,Yellow,Unisex,Loafers,Winter,2.6,2383.3
+Reebok,Orange,Unisex,Formal Shoes,Winter,6.8,13756.4
+Nike,Red,Male,Sandals,All-Season,6.5,18972.69
+Fila,Yellow,Female,Sandals,Summer,1.5,1259.57
+Adidas,Red,Male,Formal Shoes,Summer,5.8,4147.38
+Puma,Yellow,Male,Sneakers,Winter,5.4,9290.52
+Adidas,Pink,Female,Sneakers,Summer,1.6,19787.87
+Skechers,Gray,Unisex,Formal Shoes,Spring,3.6,17527.96
+Under Armour,Pink,Female,Sneakers,Winter,6.7,18829.33
+Reebok,White,Female,Loafers,Summer,6.1,3751.89
+Reebok,Green,Male,Casual Shoes,Summer,9.1,18498.36
+Adidas,White,Unisex,Loafers,Summer,1.5,11524.49
+Reebok,Black,Female,Sandals,Summer,5.8,1457.54
+Reebok,White,Unisex,Formal Shoes,All-Season,9.2,7802.06
+Under Armour,White,Male,Running Shoes,Summer,1.7,10114.04
+Adidas,Green,Female,Boots,Spring,8.9,4595.66
+Reebok,Red,Female,Boots,Winter,7.8,15035.81
+Fila,Blue,Unisex,Running Shoes,Winter,9.5,7368.9
+Under Armour,Orange,Female,Boots,Spring,8.4,5661.91
+New Balance,Green,Male,Sneakers,All-Season,7.1,16008.97
+Reebok,Green,Male,Sandals,Winter,3.0,13837.14
+New Balance,Red,Female,Boots,Summer,4.8,19496.78
+Nike,White,Unisex,Loafers,Winter,4.5,9775.83
+Nike,Black,Female,Sandals,Winter,7.1,5452.85
+Under Armour,Red,Unisex,Casual Shoes,All-Season,1.5,12548.49
+Reebok,Brown,Female,Sneakers,All-Season,4.1,12021.32
+Nike,Blue,Female,Sneakers,Winter,9.4,19828.29
+Nike,Blue,Male,Sandals,All-Season,7.9,11271.25
+Reebok,White,Unisex,Formal Shoes,All-Season,5.7,6913.01
+Reebok,Orange,Unisex,Running Shoes,Winter,9.2,12936.24
+Reebok,Orange,Female,Running Shoes,Spring,1.4,3494.94
+New Balance,Blue,Male,Boots,All-Season,2.1,15086.9
+Fila,Pink,Unisex,Loafers,Winter,8.6,19008.46
+Reebok,Gray,Unisex,Boots,All-Season,8.0,3417.19
+Fila,Yellow,Female,Loafers,Summer,1.8,4566.45
+Reebok,Green,Male,Casual Shoes,Spring,5.8,2079.14
+Puma,White,Unisex,Boots,Winter,2.7,8228.93
+Reebok,Pink,Female,Sandals,Winter,5.5,5143.47
+Reebok,Green,Male,Boots,Winter,5.6,4460.84
+Nike,Gray,Unisex,Casual Shoes,All-Season,4.1,2407.31
+Reebok,Gray,Female,Formal Shoes,Spring,3.5,6420.33
+Fila,Black,Unisex,Formal Shoes,All-Season,3.6,9868.56
+Fila,Green,Unisex,Boots,Winter,1.2,8697.85
+Nike,Pink,Unisex,Loafers,Spring,6.8,1752.88
+Nike,White,Female,Formal Shoes,Summer,9.9,14712.63
+Reebok,Brown,Female,Boots,All-Season,6.1,9361.64
+Adidas,Orange,Female,Sneakers,All-Season,8.4,6499.52
+Nike,Gray,Unisex,Running Shoes,All-Season,2.0,5744.29
+Fila,Blue,Female,Boots,Summer,1.2,18972.53
+Nike,Brown,Female,Sneakers,Winter,2.6,6260.23
+Nike,Orange,Female,Casual Shoes,Winter,9.2,3453.09
+Under Armour,Gray,Female,Boots,Spring,9.7,16984.73
+Fila,White,Unisex,Formal Shoes,Summer,9.3,2609.89
+Nike,Red,Female,Casual Shoes,All-Season,1.3,9963.86
+New Balance,Brown,Unisex,Sneakers,Spring,2.6,12602.36
+Fila,Gray,Male,Formal Shoes,All-Season,4.7,11172.99
+Under Armour,Gray,Female,Boots,Spring,6.6,1637.46
+Skechers,Gray,Male,Casual Shoes,Winter,2.2,16000.67
+Under Armour,Yellow,Female,Formal Shoes,All-Season,2.5,12714.81
+Adidas,Pink,Unisex,Casual Shoes,Winter,4.8,2724.95
+Puma,Green,Male,Sandals,All-Season,3.2,14663.88
+Reebok,Orange,Male,Sandals,Spring,6.2,18377.33
+Nike,Black,Male,Formal Shoes,Spring,3.2,12174.96
+Reebok,Brown,Female,Boots,Spring,5.4,12230.91
+Nike,Brown,Unisex,Running Shoes,Summer,3.5,9178.69
+Fila,Gray,Unisex,Running Shoes,Summer,3.2,5439.0
+Nike,Blue,Male,Boots,Summer,1.5,5659.96
+Adidas,Black,Unisex,Casual Shoes,Winter,4.8,8032.2
+Puma,Brown,Unisex,Casual Shoes,Spring,6.5,11082.74
+Reebok,Black,Male,Sandals,Winter,7.5,17688.45
+Converse,Blue,Female,Loafers,All-Season,5.6,11289.99
+Under Armour,Orange,Female,Running Shoes,Summer,1.4,9799.16
+Under Armour,Green,Unisex,Sandals,Summer,1.5,1409.13
+Nike,White,Male,Running Shoes,Summer,5.3,17367.02
+Reebok,Black,Male,Boots,Spring,6.9,7239.77
+Reebok,Black,Female,Running Shoes,Winter,1.5,13510.63
+Reebok,Yellow,Unisex,Sneakers,Winter,5.5,3418.31
+Fila,Yellow,Unisex,Sneakers,Winter,1.1,5500.56
+Adidas,Brown,Unisex,Loafers,Winter,4.5,13804.27
+Nike,Green,Male,Running Shoes,Summer,3.3,15363.37
+ASICS,Gray,Unisex,Sandals,Winter,9.8,19124.43
+Skechers,Blue,Unisex,Sandals,All-Season,2.6,15278.83
+Reebok,White,Unisex,Formal Shoes,All-Season,2.1,12558.54
+Reebok,White,Female,Sandals,Summer,3.2,17542.93
+Reebok,Green,Female,Boots,All-Season,1.6,9680.67
+Reebok,Yellow,Female,Running Shoes,Spring,6.6,10950.03
+New Balance,Green,Male,Boots,All-Season,3.0,10050.4
+Skechers,Blue,Female,Formal Shoes,All-Season,1.8,17011.21
+Nike,Pink,Unisex,Sandals,Winter,2.3,17561.35
+Nike,Black,Male,Running Shoes,Summer,5.0,6100.43
+Under Armour,Green,Male,Sneakers,Spring,6.8,11850.21
+New Balance,Pink,Unisex,Sandals,Summer,1.6,17701.72
+Reebok,White,Male,Sneakers,Winter,4.3,10034.38
+Skechers,Brown,Unisex,Loafers,Summer,6.2,2285.01
+Adidas,Green,Female,Formal Shoes,All-Season,5.3,9109.43
+Nike,Blue,Male,Sandals,All-Season,7.9,2821.85
+ASICS,Red,Unisex,Formal Shoes,Summer,5.9,4385.84
+Reebok,Orange,Male,Loafers,Summer,3.3,11174.23
+Reebok,Orange,Unisex,Formal Shoes,Summer,2.6,14482.32
+Puma,Black,Unisex,Boots,Summer,8.8,19132.35
+Reebok,Green,Unisex,Casual Shoes,Winter,1.3,9351.62
+Reebok,Gray,Male,Boots,All-Season,5.6,17615.94

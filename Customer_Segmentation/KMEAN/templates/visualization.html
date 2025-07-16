@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Segmentation Analysis</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <style>
+    :root {
+      --primary-color: #6c5ce7;
+      --primary-light: #a29bfe;
+      --secondary-color: #00cec9;
+      --accent-color: #fd79a8;
+      --dark-bg: #2d3436;
+      --dark-surface: #191d20;
+      --text-light: #f5f6fa;
+      --text-muted: #b2bec3;
+      --success: #00b894;
+      --error: #ff7675;
+      --transition-speed: 0.3s;
+      --segment-1: #FF6B6B;
+      --segment-2: #48DBFB;
+      --segment-3: #1DD1A1;
+      --segment-4: #FECA57;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      color: var(--text-light);
+      overflow-x: hidden;
+      position: relative;
+      padding: 40px 20px;
+    }
+
+    /* Background animated elements */
+    .stars {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .star {
+      position: absolute;
+      background-color: white;
+      border-radius: 50%;
+      opacity: 0.3;
+      animation: twinkle var(--duration) infinite ease-in-out;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.8; }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      position: relative;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(108, 92, 231, 0.25);
+      transform: perspective(800px) rotateY(0deg);
+      transition: transform 0.6s ease;
+    }
+
+    .logo:hover {
+      transform: perspective(800px) rotateY(15deg);
+    }
+
+    .logo i {
+      font-size: 40px;
+      color: white;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      background: linear-gradient(90deg, var(--primary-light), var(--secondary-color));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      display: inline-block;
+    }
+
+    p.subtitle {
+      color: var(--text-muted);
+      margin-bottom: 30px;
+      font-size: 18px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      border: none;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 20px rgba(108, 92, 231, 0.25);
+      position: relative;
+      overflow: hidden;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.7s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 25px rgba(108, 92, 231, 0.4);
+    }
+
+    .btn:hover::before {
+      left: 100%;
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .btn i {
+      font-size: 18px;
+    }
+
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background-color: rgba(25, 29, 32, 0.85);
+      backdrop-filter: blur(10px);
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2),
+                  0 0 0 1px rgba(255, 255, 255, 0.05);
+      position: relative;
+      overflow: hidden;
+      height: 400px;
+      animation: fadeIn 0.8s ease-in-out;
+      animation-fill-mode: both;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: conic-gradient(
+        transparent, 
+        rgba(108, 92, 231, 0.05), 
+        transparent
+      );
+      animation: rotate 10s linear infinite;
+      z-index: -1;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: var(--text-light);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card h3 i {
+      color: var(--primary-light);
+    }
+
+    .chart-container {
+      position: relative;
+      width: 100%;
+      height: calc(100% - 50px);
+    }
+
+    .loading {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(25, 29, 32, 0.8);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    .loading i {
+      font-size: 40px;
+      color: var(--primary-light);
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .loading p {
+      margin-top: 15px;
+      color: var(--text-muted);
+    }
+
+    .summary-card {
+      grid-column: 1 / -1;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      min-height: 300px;
+    }
+
+    .segment-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .segment-item {
+      background-color: rgba(45, 52, 54, 0.5);
+      padding: 20px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .segment-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .segment-item h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .segment-item p {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .segment-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .segment-dot-1 {
+      background-color: var(--segment-1);
+    }
+
+    .segment-dot-2 {
+      background-color: var(--segment-2);
+    }
+
+    .segment-dot-3 {
+      background-color: var(--segment-3);
+    }
+
+    .segment-dot-4 {
+      background-color: var(--segment-4);
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .tooltip {
+      background-color: var(--dark-surface);
+      color: var(--text-light);
+      padding: 10px 15px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 14px;
+    }
+
+    @media (max-width: 1100px) {
+      .dashboard {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px 15px;
+        height: 350px;
+      }
+
+      .segment-list {
+        grid-template-columns: 1fr;
+      }
+
+      .actions {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      p.subtitle {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Background stars -->
+  <div class="stars" id="stars"></div>
+
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <i class="fa-solid fa-chart-pie"></i>
+      </div>
+      <h1>Customer Segment Analysis</h1>
+      <p class="subtitle">Interactive visualization of your customer segmentation results</p>
+    </div>
+
+    <div class="dashboard">
+      <div class="card">
+        <h3><i class="fa-solid fa-users-viewfinder"></i> Customer Segment Distribution</h3>
+        <div class="chart-container">
+          <canvas id="segmentDistribution"></canvas>
+          <div class="loading" id="loading1">
+            <i class="fa-solid fa-spinner"></i>
+            <p>Loading data...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3><i class="fa-solid fa-money-bill-trend-up"></i> Average Spending by Segment</h3>
+        <div class="chart-container">
+          <canvas id="spendingBySegment"></canvas>
+          <div class="loading" id="loading2">
+            <i class="fa-solid fa-spinner"></i>
+            <p>Loading data...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3><i class="fa-solid fa-clock-rotate-left"></i> Recency vs. Value Analysis</h3>
+        <div class="chart-container">
+          <canvas id="recencyValueScatter"></canvas>
+          <div class="loading" id="loading3">
+            <i class="fa-solid fa-spinner"></i>
+            <p>Loading data...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3><i class="fa-solid fa-calendar-days"></i> Seasonal Purchase Patterns</h3>
+        <div class="chart-container">
+          <canvas id="seasonalDistribution"></canvas>
+          <div class="loading" id="loading4">
+            <i class="fa-solid fa-spinner"></i>
+            <p>Loading data...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card summary-card">
+        <h3><i class="fa-solid fa-lightbulb"></i> Segment Insights & Recommendations</h3>
+        <div class="segment-list">
+          <div class="segment-item">
+            <h4><span class="segment-dot segment-dot-1"></span> Low-Value Frequent Buyers</h4>
+            <p>These customers make small but regular purchases. Focus on increasing their basket size through bundle offers and product recommendations.</p>
+          </div>
+          <div class="segment-item">
+            <h4><span class="segment-dot segment-dot-2"></span> High-Value Loyal Customers</h4>
+            <p>Your most valuable segment. Nurture them with exclusive rewards, early access to new products, and personalized experiences.</p>
+          </div>
+          <div class="segment-item">
+            <h4><span class="segment-dot segment-dot-3"></span> Lost Customers</h4>
+            <p>Customers who haven't purchased in a long time. Re-engage with special comeback offers, personalized communications, and reminders of your value proposition.</p>
+          </div>
+          <div class="segment-item">
+            <h4><span class="segment-dot segment-dot-4"></span> Seasonal Buyers</h4>
+            <p>These customers buy primarily during specific seasons. Target them ahead of their usual buying period with seasonal promotions and new product announcements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a href="/" class="btn">
+        <i class="fa-solid fa-arrow-left"></i> Back to Upload
+      </a>
+      <a href="/download" class="btn">
+        <i class="fa-solid fa-download"></i> Download Full Analysis
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // Get session ID from the URL
+    const sessionId = "{{ session_id }}";
+    
+    // Create animated stars background
+    function createStars() {
+      const stars = document.getElementById('stars');
+      const count = 100;
+      
+      for (let i = 0; i < count; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        
+        // Random positions
+        const x = Math.random() * 100;
+        const y = Math.random() * 100;
+        
+        // Random sizes
+        const size = Math.random() * 3;
+        
+        // Random durations
+        const duration = 2 + Math.random() * 3;
+        
+        star.style.left = `${x}%`;
+        star.style.top = `${y}%`;
+        star.style.width = `${size}px`;
+        star.style.height = `${size}px`;
+        star.style.setProperty('--duration', `${duration}s`);
+        
+        stars.appendChild(star);
+      }
+    }
+    
+    createStars();
+
+    // Chart color palettes
+    const segmentColors = [
+      'rgba(255, 107, 107, 0.8)', // red
+      'rgba(72, 219, 251, 0.8)',  // blue
+      'rgba(29, 209, 161, 0.8)',  // green
+      'rgba(254, 202, 87, 0.8)'   // yellow
+    ];
+
+    const segmentBorders = [
+      'rgba(255, 107, 107, 1)',
+      'rgba(72, 219, 251, 1)',
+      'rgba(29, 209, 161, 1)',
+      'rgba(254, 202, 87, 1)'
+    ];
+
+    // Set Chart.js defaults
+    Chart.defaults.color = '#b2bec3';
+    Chart.defaults.font.family = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+
+    // Initialize charts
+    let segmentDistributionChart, spendingBySegmentChart, recencyValueScatterChart, seasonalDistributionChart;
+
+    // 1. Segment Distribution Chart
+    async function loadSegmentDistribution() {
+      try {
+        const response = await fetch(`/api/segment-counts/${sessionId}`);
+        const data = await response.json();
+        
+        document.getElementById('loading1').style.display = 'none';
+        
+        segmentDistributionChart = new Chart(
+          document.getElementById('segmentDistribution'),
+          {
+            type: 'doughnut',
+            data: {
+              labels: data.labels,
+              datasets: [{
+                data: data.values,
+                backgroundColor: segmentColors,
+                borderColor: segmentBorders,
+                borderWidth: 2,
+                hoverOffset: 15
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: {
+                  position: 'right',
+                  labels: {
+                    color: '#f5f6fa',
+                    padding: 15,
+                    font: {
+                      size: 12
+                    }
+                  }
+                },
+                tooltip: {
+                  backgroundColor: 'rgba(25, 29, 32, 0.8)',
+                  titleFont: {
+                    size: 14,
+                    weight: 'bold'
+                  },
+                  bodyFont: {
+                    size: 13
+                  },
+                  padding: 12,
+                  cornerRadius: 6,
+                  displayColors: true,
+                  callbacks: {
+                    label: function(context) {
+                      const label = context.label || '';
+                      const value = context.formattedValue;
+                      const total = context.chart.data.datasets[0].data.reduce((a, b) => a + b, 0);
+                      const percentage = Math.round((context.raw / total) * 100);
+                      return `${label}: ${value} customers (${percentage}%)`;
+                    }
+                  }
+                }
+              },
+              cutout: '60%',
+              animation: {
+                animateScale: true,
+                animateRotate: true,
+                duration: 2000,
+                easing: 'easeOutQuart'
+              }
+            }
+          }
+        );
+      } catch (error) {
+        console.error('Error loading segment distribution:', error);
+        document.getElementById('loading1').innerHTML = `
+          <i class="fa-solid fa-triangle-exclamation" style="color:var(--error)"></i>
+          <p>Failed to load data</p>
+        `;
+      }
+    }
+
+  // 2. Average Spending by Segment Chart
+async function loadSpendingBySegment() {
+  try {
+    const response = await fetch(`/api/spending-by-segment/${sessionId}`);
+    const data = await response.json();
+    
+    document.getElementById('loading2').style.display = 'none';
+    
+    spendingBySegmentChart = new Chart(
+      document.getElementById('spendingBySegment'),
+      {
+        type: 'bar',
+        data: {
+          labels: data.labels,
+          datasets: [{
+            label: 'Average Spending',
+            data: data.values,
+            backgroundColor: segmentColors,
+            borderColor: segmentBorders,
+            borderWidth: 2,
+            borderRadius: 6,
+            maxBarThickness: 50
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false
+            },
+            tooltip: {
+              backgroundColor: 'rgba(25, 29, 32, 0.8)',
+              titleFont: {
+                size: 14
+              },
+              bodyFont: {
+                size: 13
+              },
+              padding: 12,
+              cornerRadius: 6,
+              callbacks: {
+                label: function(context) {
+                  return `Avg. Spending: $${context.raw.toFixed(2)}`;
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: {
+                display: false,
+                drawBorder: false
+              }
+            },
+            y: {
+              beginAtZero: true,
+              grid: {
+                color: 'rgba(255, 255, 255, 0.05)',
+                tickBorderDash: [5, 5]
+              },
+              ticks: {
+                callback: function(value) {
+                  return '$' + value;
+                }
+              }
+            }
+          },
+          animation: {
+            duration: 2000,
+            easing: 'easeOutQuart'
+          },
+          layout: {
+            padding: 20
+          }
+        }
+      }
+    );
+  } catch (error) {
+    console.error('Error loading spending data:', error);
+    document.getElementById('loading2').innerHTML = `
+      <i class="fa-solid fa-triangle-exclamation" style="color:var(--error)"></i>
+      <p>Failed to load data</p>
+    `;
+  }
+}
+
+    // 3. Recency vs Value Scatter Chart
+    async function loadRecencyValueScatter() {
+      try {
+        const response = await fetch(`/api/recency-value-scatter/${sessionId}`);
+        const data = await response.json();
+        
+        document.getElementById('loading3').style.display = 'none';
+        
+        const datasets = data.map((segment, index) => {
+          return {
+            label: segment.name,
+            data: segment.data.map(point => ({
+              x: point[0], // Recency
+              y: point[1], // Avg Order Value
+              customerId: point[2] // Customer ID for tooltips
+            })),
+            backgroundColor: segmentColors[index % segmentColors.length],
+            borderColor: segmentBorders[index % segmentBorders.length],
+            borderWidth: 1,
+            pointRadius: 6,
+            pointHoverRadius: 8
+          };
+        });
+        
+        recencyValueScatterChart = new Chart(
+          document.getElementById('recencyValueScatter'),
+          {
+            type: 'scatter',
+            data: {
+              datasets: datasets
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: {
+                  position: 'top',
+                  labels: {
+                    color: '#f5f6fa',
+                    padding: 12,
+                    usePointStyle: true,
+                    pointStyle: 'circle'
+                  }
+                },
+                tooltip: {
+                  backgroundColor: 'rgba(25, 29, 32, 0.8)',
+                  padding: 12,
+                  cornerRadius: 6,
+                  callbacks: {
+                    label: function(context) {
+                      const point = context.raw;
+                      return [
+                        `Segment: ${context.dataset.label}`,
+                        `Recency: ${point.x.toFixed(0)} days`,
+                        `Avg Value: $${point.y.toFixed(2)}`,
+                        `Customer ID: ${point.customerId}`
+                      ];
+                    }
+                  }
+                }
+              },
+              scales: {
+                x: {
+                  title: {
+                    display: true,
+                    text: 'Recency (days)',
+                    color: '#f5f6fa'
+                  },
+                  grid: {
+                    color: 'rgba(255, 255, 255, 0.05)'
+                  },
+                  reverse: true // Lower values (more recent) on the right side
+                },
+                y: {
+                  title: {
+                    display: true,
+                    text: 'Average Order Value ($)',
+                    color: '#f5f6fa'
+                  },
+                  grid: {
+                    color: 'rgba(255, 255, 255, 0.05)'
+                  }
+                }
+              },
+              animation: {
+                duration: 2000,
+                easing: 'easeOutQuart'
+              }
+            }
+          }
+        );
+      } catch (error) {
+        console.error('Error loading scatter data:', error);
+        document.getElementById('loading3').innerHTML = `
+          <i class="fa-solid fa-triangle-exclamation" style="color:var(--error)"></i>
+          <p>Failed to load data</p>
+        `;
+      }
+    }
+
+    // 4. Seasonal Distribution Chart
+    async function loadSeasonalDistribution() {
+      try {
+        const response = await fetch(`/api/seasonal-distribution/${sessionId}`);
+        const data = await response.json();
+        
+        document.getElementById('loading4').style.display = 'none';
+        
+        const datasets = data.datasets.map((dataset, index) => {
+          return {
+            label: dataset.label,
+            data: dataset.data,
+            backgroundColor: segmentColors[index % segmentColors.length],
+            borderColor: segmentBorders[index % segmentBorders.length],
+            borderWidth: 1
+          };
+        });
+        
+        seasonalDistributionChart = new Chart(
+          document.getElementById('seasonalDistribution'),
+          {
+            type: 'bar',
+            data: {
+              labels: data.labels,
+              datasets: datasets
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: {
+                  position: 'top',
+                  labels: {
+                    color: '#f5f6fa',
+                    padding: 12
+                  }
+                },
+                tooltip: {
+                  backgroundColor: 'rgba(25, 29, 32, 0.8)',
+                  padding: 12,
+                  cornerRadius: 6
+                }
+              },
+              scales: {
+                x: {
+                  grid: {
+                    display: false
+                  }
+                },
+                y: {
+                  beginAtZero: true,
+                  grid: {
+                    color: 'rgba(255, 255, 255, 0.05)'
+                  },
+                  title: {
+                    display: true,
+                    text: 'Number of Customers',
+                    color: '#f5f6fa'
+                  }
+                }
+              },
+              animation: {
+                duration: 2000,
+                easing: 'easeOutQuart'
+              }
+            }
+          }
+        );
+      } catch (error) {
+        console.error('Error loading seasonal data:', error);
+        document.getElementById('loading4').innerHTML = `
+          <i class="fa-solid fa-triangle-exclamation" style="color:var(--error)"></i>
+          <p>Failed to load data</p>
+        `;
+      }
+    }
+
+    // Load all charts with slight delays to create a staggered effect
+    setTimeout(loadSegmentDistribution, 200);
+    setTimeout(loadSpendingBySegment, 500);
+    setTimeout(loadRecencyValueScatter, 800);
+    setTimeout(loadSeasonalDistribution, 1100);
+  </script>
+</body>
+</html>
