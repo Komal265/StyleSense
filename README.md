@@ -1,4 +1,4 @@
-###Introduction###
+### Introduction ###
 
 StyleSense is a customer-centric fashion retail platform designed to enhance shopping experiences by understanding customer preferences and behaviors. Our website offers curated recommendations and targeted campaigns based on insights drawn from transactional and seasonal data. To improve personalization and business strategy, we integrate machine learning techniques to segment customers into meaningful groups.
 
